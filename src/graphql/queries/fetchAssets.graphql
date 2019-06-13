@@ -1,0 +1,7 @@
+query fetchAssets {
+  fetchAssets @client {
+    id
+    name
+    amount
+  }
+}

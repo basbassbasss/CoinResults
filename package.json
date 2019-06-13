@@ -1,0 +1,58 @@
+{
+  "name": "CoinResults",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/native": "^10.0.11",
+    "@types/prop-types": "^15.7.1",
+    "apollo-boost": "^0.3.1",
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-client": "^2.5.1",
+    "apollo-link": "^1.2.11",
+    "apollo-link-context": "^1.0.17",
+    "apollo-link-error": "^1.1.10",
+    "apollo-link-http": "^1.5.14",
+    "apollo-link-state": "^0.4.2",
+    "axios": "^0.18.0",
+    "emotion-theming": "^10.0.10",
+    "graphql": "^14.3.0",
+    "graphql-tag": "^2.10.1",
+    "numeral": "^2.0.6",
+    "react": "16.8.3",
+    "react-apollo": "^2.5.5",
+    "react-native": "0.59.8",
+    "react-native-gesture-handler": "^1.2.1",
+    "react-native-sqlite-storage": "^3.3.10",
+    "react-navigation": "^3.9.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "@types/react": "^16.8.17",
+    "@types/react-native": "^0.57.59",
+    "@typescript-eslint/eslint-plugin": "^1.8.0",
+    "@typescript-eslint/parser": "^1.8.0",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-import-graphql": "^2.7.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-plugin-transform-optional-chaining": "^7.0.0-beta.3",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-typescript": "^4.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.0",
+    "react-native-typescript-transformer": "^1.2.12",
+    "react-test-renderer": "16.8.3",
+    "typescript": "^3.4.5"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
